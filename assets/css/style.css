@@ -1,0 +1,510 @@
+					
+					/* <!-- HEADER ( menu, logo) --> */
+					
+.header_site{
+position: relative; /* Parent */
+height: 3651px; /* Parent height */
+max-width: 1366px;
+/* background-color:green; */
+overflow: hidden;
+}	
+
+/* <!-- Menu --> */
+.header_menu{
+position: absolute; /* child */
+height: 127.44px; 
+width: 1366px;
+margin:0px 0px 0px 0px;	
+z-index: 5;
+}
+			.Vector{
+			position: absolute; 
+			margin: 1px 0px 0px 0px; 
+			z-index: 1;}  
+			
+			.menu{display:flex;
+			z-index: 10}
+			
+			.menu li a{
+			text-decoration:none;
+			font-size:18px;
+			color: #060606;
+			font-weight: bold;
+			font-family: Montserrat;}
+				
+			.menu{
+			position: absolute; 
+			font-family: Montserrat;
+			font-size: 18px;
+			margin:0px 0px 0px 266px;	
+			text-decoration: none;
+			top: 51px;} 
+			
+			.menu li{margin-right:39px;	
+			list-style-type: none;
+			text-decoration: none;}
+			.menu_language {
+			padding:0px 0px 0px 25px;
+			}
+			
+			
+			.BlackLogo{
+			position: absolute;
+			overflow: hidden;
+			top:0px;
+			left: 62px; 
+			z-index: 6;} 
+			
+	
+				/* <!-- Content (video, text, images) --> */
+
+.body_content{
+position: absolute; 
+top:0px;
+width: 1366px;
+z-index: 2;}
+
+			.SparkleVideo{
+			position: absolute; 
+			font-family: Montserrat;
+			height: 722px; 
+			width: 1366px;
+			left: 0px;
+			top: 47px;
+			z-index:2;} 
+
+			.player{
+			position: absolute; 
+			height: 83px; 
+			width: 86px;
+			margin:352px 0px 0px 619px;
+			z-index: 5;}   
+
+			.text_center{
+			position: absolute;
+			font-family: Montserrat;
+			/* top:919px; */
+			color:#2F4858;
+			font-size: 18px;
+			text-align: center;
+			margin:901px 0px 0px 358px;
+			/* left: 359px;  */
+			width: 48%;
+			}
+								
+								
+								/* <!-- Images --> */
+.images_images{
+position: relative; 
+height: 398px; 
+width: 1366px;
+top:1183px;
+left: 0px;
+}
+		.images_Zandra{
+		position: absolute; 
+		height: 355px; 
+		top:14px;
+		left: 0px; 
+		}	
+		.images_Sibila{
+		position: absolute; 
+		height: 334px;
+		width: 364px;
+		top:19px;
+		left: 328px; 
+		}	
+
+		.images_BrinumaMeita{
+		position: absolute; 
+		height: 180px; 
+		width: 298px;
+		top: 19px;
+		left: 662px; 
+}	
+	
+		.images_Alina{
+		position: absolute;
+		height: 180px; 
+		width: 298px;
+		top:199px;
+		bottom: 0px;
+		left: 662px; 
+		}
+		.images_Anda{
+		position: absolute; 
+		height: 383px; 
+		width: 406px;
+		top:0px;
+		right: 0px;
+		}
+
+		.Vector_2{
+		position: absolute; 
+		z-index: 7;
+		top:0px;}
+
+		.Vector_3{
+		position: absolute; 
+		z-index: 8;
+		bottom:0px;}
+	
+							/* <!-- Buttons --> */
+							
+.buttons_texts	{
+position: relative; 
+font-family: Oswald;
+width: 848px;
+margin:1333px 0px 0px 276px;
+}						
+							
+		h1{
+		position: absolute; 
+		font-family: Oswald;
+		font-size: 24px;
+		color:#2F4858;	
+		top:-17px;}
+
+		h2{
+		position: absolute;
+		font-family: Oswald;
+		font-size: 24px;
+		right:0px;
+		color:#2F4858;
+		top:-17px;
+		}		
+
+		.button_button1	{
+		position: absolute; 
+		background-color: #FFA800;
+		font-size: 18px;
+		color: #FFFFFF;
+		font-family: Montserrat;
+		text-align: center;
+		height: 50px; 
+		width: 233px;
+		border-radius: 25px;
+		border: none;
+		margin:80px 0px 0px 23px;
+		}	
+		.button_button2	{
+		position: absolute; 
+		background-color: #FFA800;
+		font-size: 18px;
+		color: #FFFFFF;
+		font-family: Montserrat;
+		text-align: center;
+		height: 50px; 
+		width: 233px;
+		border: none;
+		margin:80px 41px 0px 556px;
+		border-radius: 25px;
+		}		
+													/* <!-- Forms --> */
+													
+.Forms_1{
+position: absolute; 
+width: 50%;
+margin:337px 0px 0px 377px;
+}
+
+		h3{	color: #2F4858;
+		font-family: Oswald;
+		font-size: 30px;
+		text-align:center;
+		margin: -58px 0px 0px -78px;
+		
+		}
+		.text_text {margin: 0px 0px 59px 0px;}
+		
+		input[type=text]{
+		height: 43px; 
+		width: 296px;
+		font-family: Montserrat;
+		background-color:#C4C4C466;
+		border-radius: 5px;
+		border: none;
+		margin: 0px 10px 7.5px 0px;
+		} 
+		
+		input[type=tel]{
+		height: 43px; 
+		width: 612px;
+		background-color:#C4C4C466;
+		border-radius: 5px;
+		border: none;
+		margin-left: 100px;
+		margin: 7px 0px 7.5px 0px;
+		}
+
+		::placeholder {
+		font-family: Montserrat;
+		color: #2F4858;
+		font-size: 18px;
+		padding: 0px 0px 0px 10px;
+		}
+
+		textarea{
+		height: 232px; 
+		width: 612px;
+		background-color:#C4C4C466;
+		border-radius: 5px;
+		border: none;
+		padding: 0px 0px 5px 0px;
+		margin: 12px 0px 7.5px 0px;
+		}
+
+		input[type=submit]{
+		top:100px;
+		background-color: #FFA800;
+		height: 62px; 
+		width: 182px;
+		border: none;
+		border-radius: 25px;
+		font-size: 24px;
+		color: #FFFFFF;
+		font-family: Montserrat;}
+		
+		.button_submit{
+		text-align:center;
+		margin: 50px 0px 0px -72px;}
+		
+		
+		
+		.Forms_1 p{
+		font-family: Montserrat;
+		color: #2F4858;
+		margin: -8px 0px 35px 0px;
+		font-size: 14px;}
+
+
+									/* checkbox ! ! !        */
+													
+/* The container */
+.container {
+	margin: -7px 0px 0px 0px;
+  display: block;
+  position: relative;
+  padding-left: 30px;
+  cursor: pointer;
+  font-size: 14px;
+  font-family: Montserrat;
+  width: 75%;
+  color: #2F4858;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+/* Hide the browser's default checkbox */
+.container input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+}
+
+								/* Create a custom checkbox */
+.checkmark {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 16px;
+  width: 16px;
+  background-color:#C4C4C466;
+  border-radius: 4px;
+}
+	
+																											
+/* Create the checkmark/indicator (hidden when not checked) */
+.checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+/* Show the checkmark when checked */
+.container input:checked ~ .checkmark:after {
+  display: block;
+}
+
+/* Style the checkmark/indicator */
+.container .checkmark:after {
+  left: 4px;
+  top: 1px;
+  width: 4px;
+  height: 9px;
+  border: solid black;
+  border-width: 0 3px 3px 0;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+}	
+
+
+
+					/* Footer */
+																			
+.footer	{
+position: absolute; 
+width: 1366px;
+background-color:red;
+bottom:0px;
+}
+.images_group{
+position: absolute; 
+margin: -823px 0px 290px 0px;
+
+}
+.images_footer{
+position: absolute; 
+margin: -374px 0px -7px 0px;
+}
+
+h4{
+		
+		text-align:center;
+		font-family: Oswald;
+		font-size: 24px;
+		color:#2F4858;
+		margin: 0px 0px 83px 120px;	
+		}
+		
+
+
+/* FOOTER LOGO */
+.logo_logo{
+		position: absolute;
+		text-align:center;
+		bottom:460px;
+		margin: 0px 0px 23px 120px;	
+		}
+		
+		.logo__row{
+		display: flex;
+		margin: 0px -5px;
+		}
+		
+		.logo__element{
+		padding: 0px 5px;
+		flex: 0 1 25%;
+		margin: 0px 0px 0px 50px;
+		}
+
+/* FOOTER INFO */		
+
+.block{position: absolute;	
+margin: -318px 0px 0px 0px;
+width: 1366px;
+}
+		.block__row{
+		display: flex;
+		margin: 16px 7.5px;
+		}
+
+		.block__element{
+		padding: 0px 0px;
+		flex: 0 1 25%;
+		}
+
+		.left__content{
+			margin:0px 0px 0px 50px;	
+		}
+		.left_tittle p{
+			display: flex;
+			color: #FFFFFF;
+			font-family: Montserrat;
+			font-size: 14px;
+			margin:64px 0px 76px 50px;
+			}
+
+		.info_footer  a{
+			text-decoration: none;
+			margin:0px 0px 0px -8px;
+			color: #FFFFFF;
+			font-family: Montserrat;
+			font-size: 18px;
+		} 
+		.info_footer li {
+			display:flex;
+			margin-bottom: 20px;
+			flex-direction:column;
+			list-style-type: none;
+			text-decoration: none;
+			} 
+	
+		.top_company p{
+			display: flex;
+			color: #FFFFFF;
+			font-family: Montserrat;
+			font-size: 18px;
+			margin:0px 0px 12px -47px;	
+			}
+
+		.top_tittle{
+			color: #FFFFFF;
+			font-family: Montserrat;
+			font-size: 24px;
+			margin:0px 0px 10px -47px;	
+		}
+
+		.right_tittle{
+			text-align: right;
+			color: #FFFFFF;
+			font-family: Montserrat;
+			font-size: 24px;
+			margin:0px 50px 10px 0px;	
+		}
+		.right_company p{
+			text-align: right;
+			text-decoration: none;
+			color: #FFFFFF;
+			font-family: Montserrat;
+			font-size: 18px;
+			margin:0px 50px 12px 0px;	
+			}
+
+		.footer_social{
+		text-align: right;
+		margin:50px 20px 2px 0px;	
+		}
+
+		.fa{margin-right:30px;}
+
+		.fa:hover {
+			opacity: 0.7;
+		}
+
+		.right_company_info a{
+			text-decoration: none;
+			color: #FFFFFF;
+			font-family: Montserrat;
+			font-size: 14px;
+			}
+		.right_company_info {
+			margin:55px 50px 76px 0px;
+			text-align: right;
+			}
+
+@media only screen and (max-width: 600px){
+div, body,  .button {float:none; width:100%;}
+ul, li, .button {min-height:initial;}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
